@@ -28,6 +28,7 @@ With TF, the count or frequency of each word (after stop words are removed) are 
 </ul>
 <h1>STEP 3 - Creating a classifier using Logistic Regression:</h1>
 <ul>
+	
 <li>Now that the concatenated text is vectorized and we know the frequency and importance of each word in the boilerplate text. Thus, the vectorized text is now divided into two parts namely X_train and X_test.</li>
 <li>We create a Logistic Regression model for this problem as we need to build a classifier which is binary i.e: either 0 for non-evergreen or 1 for evergreen. Logistic regression is best used for binary classification problems.</li>
 <li>With arguments passed in the model as, penalty=l2 which denotes Ridge Regression. We use l2 here because the independent features are highly correlated (multicollinearity). Thus, ridge regularization helps in reducing quality errors and the complexity of the model.</li>
